@@ -172,5 +172,5 @@ if __name__ == '__main__':
     input = torch.rand([2, 3, 224, 224])
     net = AUIQE()
     output = net(input)
-    print(f"output: , {output}")
-    print(f"output.shape: , {output.shape}")
+    print(f"output: {output}")
+    print(f"output.shape: {output.shape}")
